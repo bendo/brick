@@ -37,6 +37,9 @@ library
   build-depends:
       base >=4.7 && <5
     , brick
+    , microlens
+    , microlens-mtl
+    , microlens-th
     , vty
   default-language: Haskell2010
 
@@ -53,6 +56,9 @@ executable iban-exe
       base >=4.7 && <5
     , brick
     , iban
+    , microlens
+    , microlens-mtl
+    , microlens-th
     , vty
   default-language: Haskell2010
 
@@ -70,5 +76,8 @@ test-suite iban-test
       base >=4.7 && <5
     , brick
     , iban
+    , microlens
+    , microlens-mtl
+    , microlens-th
     , vty
   default-language: Haskell2010
