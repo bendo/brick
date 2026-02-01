@@ -26,7 +26,7 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Validator
   other-modules:
       Paths_iban
   autogen-modules:
